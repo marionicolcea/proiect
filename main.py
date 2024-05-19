@@ -2,7 +2,6 @@ import os
 import cv2
 import json
 from collections import defaultdict
-
 # funcția pentru analiza culorilor dintr-o imagine
 def analizaculori(caleimagine):
 # incărcarea imaginii utilizând OpenCV
