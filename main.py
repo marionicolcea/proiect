@@ -10,7 +10,7 @@ def analizaculori(caleimagine):
         raise ValueError(f"nu s-a putut acesa imaginea: {caleimagine}")
 # clcularea valorii medii pentru fiecare componentă de culoare
     mean_b, mean_g, mean_r = cv2.mean(imagine)[:3]
-    return {'rsu': mean_r, 'verde': mean_g, 'albastru': mean_b}
+    return {'rosu': mean_r, 'verde': mean_g, 'albastru': mean_b}
 # vlasificarea imaginilor în funcție de culorile predominante
 def clasificareimagini(imaginedirector):
     # ceraerea unui dicționar pentru a stoca imaginile clasificate pe culori
